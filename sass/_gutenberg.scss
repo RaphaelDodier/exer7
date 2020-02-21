@@ -19,7 +19,7 @@
 
 .animbloc2{
     // animation: animbloc2 3s alternate;
-    animation: animbloc2 3s ease-out infinite alternate;
+    animation: animbloc2 3s ease-out infinite alternate, animbloc3 4s linear infinite alternate;
     transform-origin: 0% 50%;
 }
 
@@ -29,5 +29,18 @@
     }
     to{
         transform: scale(1.2);
+    }
+}
+
+// .animbloc3{
+//     animation: animbloc3 4s linear infinite alternate;
+// }
+
+@keyframes animbloc3{
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(5deg);
     }
 }

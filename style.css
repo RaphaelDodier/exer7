@@ -53,8 +53,8 @@ header nav .menu-nav-container ul li {
 }
 
 .animbloc2 {
-  -webkit-animation: animbloc2 3s ease-out infinite alternate;
-          animation: animbloc2 3s ease-out infinite alternate;
+  -webkit-animation: animbloc2 3s ease-out infinite alternate, animbloc3 4s linear infinite alternate;
+          animation: animbloc2 3s ease-out infinite alternate, animbloc3 4s linear infinite alternate;
   -webkit-transform-origin: 0% 50%;
           transform-origin: 0% 50%;
 }
@@ -78,6 +78,28 @@ header nav .menu-nav-container ul li {
   to {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes animbloc3 {
+  from {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
+
+@keyframes animbloc3 {
+  from {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
   }
 }
 
