@@ -13,9 +13,14 @@
 */
 body {
   font-family: 'Montserrat', sans-serif;
+  /* font-style: italic; */
 }
 
 .entry .entry-title:before {
   display: none;
+}
+
+footer {
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */
