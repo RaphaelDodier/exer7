@@ -24,6 +24,34 @@ header nav .menu-nav-container ul li {
   font-size: 15px;
 }
 
+.rayure-grise {
+  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
+}
+
+.animbloc1 {
+  opacity: 0;
+  -webkit-animation: animbloc1Anim 2s ease-out forwards;
+          animation: animbloc1Anim 2s ease-out forwards;
+}
+
+@-webkit-keyframes animbloc1Anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animbloc1Anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 footer {
   font-style: italic;
   font-weight: 800;

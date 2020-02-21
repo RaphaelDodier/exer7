@@ -1,0 +1,22 @@
+.rayure-grise {
+    @include rayure-grise;
+  }
+  
+.animbloc1{
+    opacity: 0;
+    animation: animbloc1Anim 2s ease-out forwards;
+}
+
+@keyframes animbloc1Anim{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.animbloc2{
+
+}
