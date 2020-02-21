@@ -11,11 +11,13 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteenenfant
 */
-body {
-  font-family: 'Montserrat', sans-serif;
-}
 
-.entry .entry-title:before {
-  display: none;
-}
-/*# sourceMappingURL=style.css.map */
+@import "_layout.scss";
+
+@import "_mixin.scss";
+
+@import "_entete.scss";
+
+@import "_gutenberg.scss";
+
+@import "_footer.scss";
